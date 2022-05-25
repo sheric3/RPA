@@ -12,7 +12,7 @@ pyautogui.moveTo(1248,485)
 pyautogui.click()
 
 # 아이디, 비번 입력
-time.sleep(3)
+time.sleep(5)
 pyautogui.moveTo(1365,690)
 pyautogui.click()
 pyautogui.write("shineric2202")
