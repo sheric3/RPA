@@ -8,9 +8,11 @@ import tkinter
 # pyautogui.doubleClick() #더블클릭
 # pyautogui.click(clicks=3, interval=1) # 3번 클릭할건데 1초마다 클릭
 
+# 만약 마우스 커서가 화면의 왼쪽 위 모서리(x=0, y=0)로 이동하면, 안전장치가 가동되어 프로그램을 종료합니다.
+pyautogui.FAILSAFE = False
+
 # 3. 마우스 이동
 # for loop
-
 for i in range(100000000):
     # 다음 편 선택
     pyautogui.moveTo(4585, 395)

@@ -26,27 +26,4 @@ time.sleep(1)
 pyautogui.moveTo(1359,786)
 pyautogui.click()
 
-# 탐지로그 이동
-browser.maximize_window() # 화면 최대화
-# pyautogui.moveTo(847,157)
-# pyautogui.click()
-# time.sleep(1)
-#
-# # 기간 설정
-# pyautogui.moveTo(521,320)
-# pyautogui.click()
-# time.sleep(1)
-#
-# pyautogui.moveTo(463,546)
-# pyautogui.click()
-# time.sleep(1)
-#
-# # 기간 선택
-# pyautogui.moveTo(99,177)
-# pyautogui.click()
-# time.sleep(1)
-#
-# pyautogui.moveTo(348,175)
-# pyautogui.click()
-# time.sleep(1)
 
